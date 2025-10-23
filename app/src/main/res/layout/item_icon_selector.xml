@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/icon_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/transparent"
+        app:cardBackgroundColor="?attr/colorSurface"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/image_habit_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="64dp"
+            android:text="💧"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:contentDescription="@string/habit_icon"
+            tools:text="💧" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

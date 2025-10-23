@@ -1,0 +1,253 @@
+<resources>
+
+    <!-- Splash screen, Onboarding screens, Login and Signup screen -->
+    <string name="app_name">ZenFlow</string>
+    <string name="obs1_maintext">Track Your Wellness</string>
+    <string name="obs1_subtext">Monitor your daily habits and build a healthier routine with our intuitive tracking system</string>
+    <string name="obs2_maintext">Set Meaningful Goals</string>
+    <string name="obs2_subtext">Create personalized habits that align with your wellness journey and watch your progress grow</string>
+    <string name="obs3_maintext">Visualize Progress</string>
+    <string name="obs3_subtext">See your growth with beautiful charts and celebrate every milestone on your path to wellness</string>
+    <string name="signin_text1">Welcome Back</string>
+    <string name="signin_text2">Continue your wellness journey</string>
+    <string name="lbl_email">Email</string>
+    <string name="email_hint">saman@gmail.com</string>
+    <string name="lbl_pwd">Password</string>
+    <string name="pwd_hint">*********</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="signin_text3">Don\'t have an account?</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="signup_text1">Join ZenFlow</string>
+    <string name="signup_text2">Start your wellness journey today</string>
+    <string name="lbl_name">Full Name</string>
+    <string name="name_hint">Saman Silva</string>
+    <string name="signup_text3">Already have an account?</string>
+    <string name="next_btn">Next</string>
+    <string name="getStarted">Get Started</string>
+    <string name="onboarding_illustration">Onboarding illustration</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_habits">Habits</string>
+    <string name="title_mood">Mood</string>
+    <string name="title_profile">Profile</string>
+    <string name="complete_habit">Complete Habit</string>
+
+    <!-- Home Fragment -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
+    <string name="greeting_with_name">%1$s, %2$s!</string>
+
+    <string name="todays_progress">Today\'s Progress</string>
+    <string name="percentage_format">%d%%</string>
+    <string name="habits_completed_format">%1$d of %2$d habits completed</string>
+
+    <string name="day_streak">Day Streak</string>
+    <string name="completed">Completed</string>
+    <string name="this_week">This Week</string>
+
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="view_all_habits">View All Habits</string>
+    <string name="add_new_habit">Add New Habit</string>
+
+    <!-- Days of week (short) -->
+    <string-array name="days_of_week_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <!-- Motivational Quotes -->
+    <string-array name="motivational_quotes">
+        <item>Success is the sum of small efforts repeated day in and day out.</item>
+        <item>The secret of getting ahead is getting started.</item>
+        <item>You don\'t have to be great to start, but you have to start to be great.</item>
+        <item>A journey of a thousand miles begins with a single step.</item>
+        <item>Your only limit is you.</item>
+        <item>Small progress is still progress.</item>
+        <item>Don\'t watch the clock; do what it does. Keep going.</item>
+        <item>The harder you work for something, the greater you\'ll feel when you achieve it.</item>
+        <item>Dream bigger. Do bigger.</item>
+        <item>Don\'t stop when you\'re tired. Stop when you\'re done.</item>
+        <item>Wake up with determination. Go to bed with satisfaction.</item>
+        <item>Do something today that your future self will thank you for.</item>
+        <item>Little things make big days.</item>
+        <item>It\'s going to be hard, but hard does not mean impossible.</item>
+        <item>Don\'t wait for opportunity. Create it.</item>
+        <item>Sometimes we\'re tested not to show our weaknesses, but to discover our strengths.</item>
+        <item>The key to success is to focus on goals, not obstacles.</item>
+        <item>Dream it. Believe it. Build it.</item>
+        <item>Great things never come from comfort zones.</item>
+        <item>Success doesn\'t just find you. You have to go out and get it.</item>
+        <item>The way to get started is to quit talking and begin doing.</item>
+        <item>Believe you can and you\'re halfway there.</item>
+        <item>Your limitation—it\'s only your imagination.</item>
+        <item>Push yourself, because no one else is going to do it for you.</item>
+        <item>Sometimes later becomes never. Do it now.</item>
+        <item>The only way to do great work is to love what you do.</item>
+        <item>If you want it, work for it. It\'s that simple.</item>
+        <item>Don\'t be afraid to give up the good to go for the great.</item>
+        <item>Consistency is what transforms average into excellence.</item>
+        <item>Discipline is choosing between what you want now and what you want most.</item>
+    </string-array>
+
+    <!-- Habits Fragment -->
+    <string name="habits_title">Habits</string>
+    <string name="no_habits">No habits yet.\nTap the + button to add your first habit!</string>
+    <string name="habit_icon">Habit Icon</string>
+    <string name="add_habit">Add New Habit</string>
+    <string name="dialog_edit_title">Edit Habit</string>
+    <string name="hint_habit_name">Habit Name</string>
+    <string name="button_select_icon">Select Icon</string>
+    <string name="button_save">Save</string>
+    <string name="button_update">Update</string>
+    <string name="error_habit_name_empty">Habit name cannot be empty</string>
+    <string name="cancel">Cancel</string>
+    <string name="mark_complete">Mark complete</string>
+    <string name="streak">Streak</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="habit_added_success">Habit added successfully!</string>
+    <string name="habit_updated_success">Habit updated successfully!</string>
+
+    <!-- Mood Journal Strings -->
+    <string name="mood_journal_title">Mood Journal</string>
+    <string name="mood_prompt">How are you feeling today?</string>
+    <string name="select_your_mood">Select Your Mood</string>
+    <string name="save_mood_entry">Save Mood Entry</string>
+    <string name="past_moods">Past Moods</string>
+    <string name="calendar">Calendar</string>
+    <string name="list">List</string>
+    <string name="select_date_prompt">Select a date to view moods</string>
+    <string name="no_mood_entries">No mood entries yet.\nStart by selecting how you feel!</string>
+    <string name="mood_note_hint">Add a note about your mood (optional)…</string>
+
+    <!-- Mood Names -->
+    <string name="mood_happy">Happy</string>
+    <string name="mood_calm">Calm</string>
+    <string name="mood_sad">Sad</string>
+    <string name="mood_anxious">Anxious</string>
+    <string name="mood_angry">Angry</string>
+    <string name="mood_tired">Tired</string>
+
+    <!-- Emojis -->
+    <string name="emoji_happy">😊</string>
+    <string name="emoji_calm">😌</string>
+    <string name="emoji_sad">😢</string>
+    <string name="emoji_anxious">😰</string>
+    <string name="emoji_angry">😡</string>
+    <string name="emoji_tired">😴</string>
+
+    <!-- Content Descriptions -->
+    <string name="share_mood_summary">Share mood summary</string>
+    <string name="share_mood">Share mood</string>
+    <string name="delete_mood">Delete mood</string>
+
+    <!-- Toast Messages -->
+    <string name="mood_saved_success">Mood saved successfully!</string>
+    <string name="select_mood_prompt">Please select a mood</string>
+    <string name="no_moods_to_share">No moods to share</string>
+    <string name="mood_deleted">Mood entry deleted</string>
+    <string name="no_moods_for_date">No moods recorded for %1$s</string>
+
+    <!-- Dialog Strings -->
+    <string name="delete_mood_title">Delete Mood Entry</string>
+    <string name="delete_mood_message">Are you sure you want to delete this mood entry?</string>
+
+    <!-- Profile Fragment Strings -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="default_user_name">User Name</string>
+    <string name="default_user_email">user@example.com</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="profile_picture_updated">Profile picture updated</string>
+
+    <!-- Settings Section -->
+    <string name="settings_section">Settings</string>
+    <string name="hydration_reminder">Hydration Reminder</string>
+    <string name="not_set">Not set</string>
+    <string name="navigate">Navigate</string>
+    <string name="app_settings">App Settings</string>
+
+    <!-- Hydration Reminder -->
+    <string name="interval_30_min">Every 30 minutes</string>
+    <string name="interval_1_hour">Every 1 hour</string>
+    <string name="interval_2_hours">Every 2 hours</string>
+    <string name="interval_3_hours">Every 3 hours</string>
+    <string name="interval_4_hours">Every 4 hours</string>
+    <string name="interval_disable">Disable reminder</string>
+    <string name="hydration_interval_format_full">Every %1$d hours %2$d minutes</string>
+    <string name="hydration_interval_format_hours">Every %1$d hour(s)</string>
+    <string name="hydration_interval_format_minutes">Every %1$d minutes</string>
+    <string name="hydration_reminder_enabled">Hydration reminder enabled</string>
+    <string name="hydration_reminder_disabled">Hydration reminder disabled</string>
+
+    <!-- Hydration Notification -->
+    <string name="hydration_notification_title">Time to Hydrate!</string>
+    <string name="hydration_notification_message">Remember to drink water and stay healthy</string>
+
+    <!-- Advanced Features -->
+    <string name="advanced_features_section">Advanced Features</string>
+    <string name="habit_widget">Habit Widget</string>
+    <string name="habit_widget_description">Add widget to home screen</string>
+    <string name="mood_chart">Mood Trend Chart</string>
+    <string name="mood_chart_description">View weekly mood trends</string>
+    <string name="sensor_integration">Sensor Integration</string>
+    <string name="sensor_integration_description">Shake to add quick mood</string>
+    <string name="widget_config_message">Enable habit completion widget on your home screen to track your daily progress at a glance.</string>
+    <string name="sensor_config_message">Enable shake detection to quickly add mood entries by shaking your device.</string>
+    <string name="widget_enabled">Widget enabled</string>
+    <string name="widget_disabled">Widget disabled</string>
+    <string name="sensor_enabled">Sensor integration enabled</string>
+    <string name="sensor_disabled">Sensor integration disabled</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+
+    <!-- Mood Chart -->
+    <string name="mood_trend">Mood Trend</string>
+    <string name="weekly_mood_trend">Weekly Mood Trend</string>
+    <string name="summary">Summary</string>
+    <string name="total_entries">Total Entries</string>
+    <string name="most_frequent">Most Frequent</string>
+    <string name="total_entries_format">%d</string>
+    <string name="most_frequent_mood_format">%1$s %2$s</string>
+
+    <!-- Other Section -->
+    <string name="other_section">Other</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    <string name="logged_out">Logged out successfully</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_content">Your privacy is important to us. ZenFlow collects and stores your habit and mood data locally on your device using SharedPreferences. We do not transmit your personal data to any external servers.\n\nData collected includes:\n• Habit names and completion status\n• Mood entries and notes\n• User profile information\n\nYou can delete your data at any time by clearing the app data from your device settings.</string>
+
+    <!-- Help & Support -->
+    <string name="faq">FAQ</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="about_app">About ZenFlow</string>
+    <string name="faq_content"><b>Q: How do I add a new habit?</b>\nA: Navigate to the Habits tab and tap the + button.\n\n<b>Q: Can I track past moods?</b>\nA: Yes, use the calendar view in the Moods tab to view past entries.\n\n<b>Q: How do I enable notifications?</b>\nA: Go to Profile → Hydration Reminder and select your preferred interval.</string>
+    <string name="support_email_subject">ZenFlow Support Request</string>
+    <string name="no_email_app">No email app found</string>
+    <string name="about_app_content">ZenFlow - Your Daily Wellness Companion\n\nVersion 1.0.0\n\nZenFlow helps you build better habits, track your mood, and maintain your wellness journey with mindful reminders and insights.\n\nDeveloped as part of a mobile development project.\n\n© 2025 ZenFlow</string>
+
+    <!-- Miscellaneous -->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="opening_mood_chart">Opening mood chart…</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+
+</resources>

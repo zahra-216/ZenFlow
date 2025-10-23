@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <!-- Text color - theme aware -->
+        <item name="android:textColor">?attr/colorOnSurface</item>
+
+        <!-- Hint color - theme aware -->
+        <item name="android:textColorHint">?attr/colorOnSurfaceVariant</item>
+
+        <!-- Custom background (removes underline, adds border) -->
+        <item name="android:background">@drawable/edittext_background</item>
+
+        <!-- Make text a bit larger -->
+        <item name="android:textSize">16sp</item>
+
+        <!-- Remove default padding to avoid double padding -->
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
